@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<style type="text/css">
+
+	body, html{
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	section.head
+	{
+		border-bottom: 1px solid #0c0c0c6b;
+		background-color: #fff;
+		height: auto;
+	}
+	.navbar-brand img {
+	    margin: 0px;
+	    width: 70%;
+	}
+	.navbar-default {
+	    background-color: #fff;
+	    border: none;
+	}
+	ul.nav.navbar-nav.navbar-right>li {
+	    padding-right: 1px;
+	}
+	a.navbar-brand {
+    width: 50%;
+	}
+	ul.nav.navbar-nav.navbar-right>li>a {
+	    color: black;
+	    transition: 1s;
+	}
+	ul.nav.navbar-nav.navbar-right>li>a:hover {
+	    color: #ff545a;
+	    transition: 1s;
+	}
+	ul.nav.navbar-nav {
+	    margin-top: 10px;
+	}
+	section.advertisement
+	{
+		background-image: url('img/73.jpg');
+		background-size: cover;
+		position: relative;
+		padding: 50px 0px;
+	}
+	.cover {
+	    padding: 60px;
+	    }
+	h3 {
+	    font-size: 40px;
+	    font-weight: 700;
+	}
+	h1 {
+	    font-size: 60px;
+	    font-weight: 700;
+	}
+	button.btn {
+    color: black;
+    width: 26%;
+    padding: 14px;
+    margin: 10px;
+    font-size: 11px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: #ff545c;
+    font-family: arial;
+    font-weight: 600;
+    transition: 1s;
+    }
+    button.btn:hover
+    {
+		background-color: inherit;
+		color: black;
+		transition: 1s;
+		border-color: #ff545c;
+    }
+    strong.bold
+    {
+		color: #ff4f8c;
+    }
+    h1.title {
+	text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 5px 15px;
+	}
+	section.description {
+    padding: 50px 0px;
+   background-color: #add8e62e;
+	}
+	p.page {
+    text-align: center;
+    font-family: arial;
+    padding: 20px 0px;
+    color: gray;
+	}
+	.content_img
+	{
+		background-image: url('img/x.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 50px 0px;
+	}
+	.cover-we {
+    margin: 20px;
+    background-color: #f196b5d1;
+    padding: 10px 8px;
+	}
+	p.we-class {
+	    width: 52%;
+	    color: white;
+	    font-size: 40px;
+	    text-align: center;
+	    margin-top: 50px;
+	    margin-left: 23%;
+	    font-weight: 700;
+	}
+	strong.str {
+	    color: black;
+	    font-weight: 900;
+	    font-family: arial;
+	}
+	section.team-members
+	{
+    padding: 50px 0px;
+    background-color: #8080801f;
+	}
+	h2.team
+	{
+	    text-align: center;
+	    font-size: 34px;
+	    font-weight: 900;
+	    font-family: arial;
+	}
+	.card img {
+    width: 100%;
+    position: relative;
+    padding: 50px 0px;
+	}
+	button.btn-class {
+    left: 7%;
+    font-weight: 600;
+    background-color: #ffffffb5;
+    padding: 12px;
+    width: 86%;
+    position: absolute;
+    bottom: 60px;
+    top: 50;
+    border: 1px solid #ffffffb5;
+    transition: 1s;
+		
+	}
+	button.btn-class:hover
+	{
+		background-color: inherit;
+		color: white;
+		border: 1px solid #ffffffb5;
+		transition: 1s;
+	}
+		section.testing
+	{
+    background-color: #607d8b38;
+    padding: 50px 0px;
+	}
+	.carousel-indicators .active {
+	    background-color: #f30000;
+	}
+	h3.test {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 50px;
+	}
+	.card-description
+	{
+		width: 100%;
+		height: 350px;
+		border: 1px solid #00000014;
+		    border-radius: 11px;
+	}
+	p.des-para
+	{
+		text-align: center;
+		    padding: 9px 10px;
+   		 font-size: 13px;
+	}
+	img.rounded {
+    width: 28%;
+    margin-left: 34%;
+    border-radius: 50%;
+    padding: 50px 0px;
+	}
+	span.sub-title {
+	 margin-left: 25%;
+    font-weight: 600;
+    font-size: 19px;
+	}
+	small {
+    margin-left: 4px;
+    color: darkgray;
+	}
+	section.News {
+	background-color: #2f4f4f4d;
+    padding: 50px 0px;
+	}
+	h2.title-new {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+	}
+	img.new-img
+	{
+	width: 100%;
+    padding: 15px 0px;
+	}
+	span.date {
+    color: #ff89a8;
+    cursor: pointer;
+	}
+	.sub-heading {
+    font-size: 26px;
+    font-weight: 800;
+	}
+	.read-more>a {
+	    color: black;
+	    border-bottom: 1px #0c0c0c solid;
+	}
+	section.main-footer {
+    background-color: #1f1f1f;
+        padding: 20px 0px;
+	}
+	.foot-head {
+	margin-top: 20px;
+    font-weight: 700;
+    padding: 6px 0px;
+    color: white;
+    font-size: 20px;
+    width: 59%;
+    border-bottom: 1px #fc6183 solid;
+	}
+	.foot-img
+	{    
+    margin-top: 25px;
+	}
+	.addres {
+    font-family: sans-serif;
+    margin: 9px;
+    color: white;
+	}
+	.con {
+    color: white;
+    margin-top: 20px;
+	}
+	.recent img {
+    margin-bottom: 15px;
+    width: 100%;
+	}
+	.galary {
+    margin-bottom: 13px;
+    background-color: #4c4949;
+    height: 1px;
+    width: 100%;
+    margin-top: 13px;
+	}
+	span.de-txt {
+    font-size: 19px;
+    color: white;
+    margin-left: 18px;
+	}
+	.text {
+    color: white;
+    margin: 14px 1px;
+	}
+	span.cal {
+    color: white;
+    margin-right: 32px;
+	}
+	span.com {
+    color: white;
+	}
+	.col-md-9.abc {
+    border-left: 1px solid;
+	}
+	input[type="text"] {
+    border-radius: 37px;
+	margin-top: 4%;
+    padding: 17px 34px;
+	}
+	p.lero {
+    padding: 13px 0px;
+    color: white;
+	}
+	button.btn-strong {
+    border: none;
+    border-radius: 110px;
+    padding: 20px 20px;
+    margin-left: 18%;
+    margin-top: 10px;
+    background-color: #fc6183;
+    color: white;
+    font-weight: 600;
+    transition: 1s;
+	}
+		button.btn-strong:hover {
+		border: 1px solid #fc6183;
+		color: white;
+		background-color: inherit;
+		transition: 1s;
+	}
+	section.sub-footer {
+    border-top: 1px solid #484848;
+   	padding: 30px 0px;
+    background: #1f1f1f;
+	}
+	h5.sub-foot {
+		text-align: center;
+	    margin-top: 14%;
+	    color: white;
+	    font-size: 19px;
+	    font-family: serif;
+	}
+	img.images {
+	  padding: 66px 0px;
+	  	}
+	.icons {
+    color: white;
+    letter-spacing: 16px;
+    color: white;
+    text-align: center;
+	}
+	.co
+	{
+		color: white;
+		text-align: center;
+	}
+	.col-md-3.abd {
+    border-left: 1px solid;
+    margin-top: 30px;
+    padding: 10px 0px;
+	}
+	section.copyright {
+    background-color: black;
+    height: 60px;
+	}	
+	.copy {
+    font-size: 15px;
+    text-align: center;
+    padding: 16px;
+    color: white;
+	}
+	img.media-object {
+    width: 60px;
+	}
+	.media-heading {
+    color: white;
+    padding: 5px 0px;
+	}
+	span.da {
+    margin-right: 31px;
+    color: white;
+	}
+	span.comm {
+    color: white;
+	}
+	.media {
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+	}
+	i.fa.fa-commenting-o {
+	    margin: 0px 4px;
+	}
+
+</style>
+<body>
+	<section class="head">
+		<header>
+			<div class="container">
+				<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img src="https://www.scopehosts.com/storage/app/media/logo.png"></a>
+					</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Pages</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>	
+	</section>
+
+	<section class="advertisement">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="content">
+						<div class="cover">
+							<h3>WE <strong class="bold">ARE</strong></h3>
+							<h1>CREATE <strong class="bold">SOLUTIONS</strong></h1>
+							<button class="btn">Get Started</button>
+						</div>
+					</div>						
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="description">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+						<dvi class="col-md-12">
+							<h1 class="title">We Create Soultions that are bold and forward looking</h1>
+						</dvi>	
+							<p class="page">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptate velit omnis provident est quaerat maxime quasi numquam assumenda, illum dolores hic ea possimus. Delectus quo, repudiandae excepturi cum ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae amet nobis recusandae architecto labore, cumque eaque odit doloribus voluptate dolorum distinctio inventore pariatur. Numquam, quae deserunt, mollitia delectus minus maiores.</p>
+						
+						<div class="content_img">
+							<div class="cover-we">
+								<p class="we-class">WE ARE <strong class="str">CREATE</strong>  SOLUTIONS</p>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="team-members">
+		<div class="container">
+			<h2 class="team">Our Team Members</h2>
+			<div class="team-cards">	
+				<div class="col-md-4">
+					<div class="card">
+						<img class="profile-img" src="img/men.jpg">	
+						<button class="btn-class">Sergi Constance</button>					
+					</div>					
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="profile-img" src="img/8.jpg">						
+						<button class="btn-class">Jeff Seid</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="profile-img" src="img/phone.jpg">						
+						<button class="btn-class">John Rambo</button>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<section class="testing">
+		<h3 class="test">Our Testimonisal</h3>
+		<div class="container">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							  <!-- Indicators -->
+							  <ol class="carousel-indicators">
+							    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							  </ol>
+
+							  <!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+									<div class="col-md-4">
+										<div class="card-description">
+											<img class="rounded" src="img/men.jpg">
+											<span class="sub-title">John Rombo<small>- CEO</small></span>
+											<p class="des-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis nam repudiandae, praesentium dolorum earum illo suscipit id dolor quae quam, inventore tempora officia placeat eum vitae ducimus vero, nulla.</p>
+										</div>					
+									</div>
+									<div class="col-md-4">
+										<div class="card-description">
+											<img class="rounded" src="img/men.jpg">
+											<span class="sub-title">John Rombo<small>- CEO</small></span>
+											<p class="des-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis nam repudiandae, praesentium dolorum earum illo suscipit id dolor quae quam, inventore tempora officia placeat eum vitae ducimus vero, nulla.</p>	
+										</div>					
+									</div>	
+									<div class="col-md-4">
+										<div class="card-description">
+											<img class="rounded" src="img/men.jpg">
+											<span class="sub-title">John Rombo<small>- CEO</small></span>
+											<p class="des-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis nam repudiandae, praesentium dolorum earum illo suscipit id dolor quae quam, inventore tempora officia placeat eum vitae ducimus vero, nulla.</p>	
+										</div>					
+									</div>	
+					</div>
+
+					<div class="item">
+									<div class="col-md-4">
+										<div class="card-description">
+											<img class="rounded" src="img/men.jpg">
+											<span class="sub-title">John Rombo<small>- CEO</small></span>
+											<p class="des-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis nam repudiandae, praesentium dolorum earum illo suscipit id dolor quae quam, inventore tempora officia placeat eum vitae ducimus vero, nulla.</p>
+										</div>					
+									</div>	
+									<div class="col-md-4">
+										<div class="card-description">
+											<img class="rounded" src="img/men.jpg">
+											<span class="sub-title">John Rombo<small>- CEO</small></span>
+											<p class="des-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis nam repudiandae, praesentium dolorum earum illo suscipit id dolor quae quam, inventore tempora officia placeat eum vitae ducimus vero, nulla.</p>	
+										</div>					
+									</div>
+									<div class="col-md-4">
+										<div class="card-description">
+											<img class="rounded" src="img/men.jpg">
+											<span class="sub-title">John Rombo<small>- CEO</small></span>
+											<p class="des-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis nam repudiandae, praesentium dolorum earum illo suscipit id dolor quae quam, inventore tempora officia placeat eum vitae ducimus vero, nulla.</p>	
+										</div>					
+									</div>																				      
+					</div>
+
+				   <div class="item">
+									<div class="col-md-4">
+										<div class="card-description">
+											<img class="rounded" src="img/men.jpg">
+											<span class="sub-title">John Rombo<small>- CEO</small></span>
+											<p class="des-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis nam repudiandae, praesentium dolorum earum illo suscipit id dolor quae quam, inventore tempora officia placeat eum vitae ducimus vero, nulla.</p>	
+										</div>					
+									</div>
+									<div class="col-md-4">
+										<div class="card-description">
+											<img class="rounded" src="img/men.jpg">
+											<span class="sub-title">John Rombo<small>- CEO</small></span>
+											<p class="des-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis nam repudiandae, praesentium dolorum earum illo suscipit id dolor quae quam, inventore tempora officia placeat eum vitae ducimus vero, nulla.</p>
+										</div>					
+									</div>
+									<div class="col-md-4">
+										<div class="card-description">
+											<img class="rounded" src="img/men.jpg">
+											<span class="sub-title">John Rombo<small>- CEO</small></span>
+											<p class="des-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nobis nam repudiandae, praesentium dolorum earum illo suscipit id dolor quae quam, inventore tempora officia placeat eum vitae ducimus vero, nulla.</p>					
+									</div>					
+							</div>
+						</div>
+					 </div>
+				</div>
+			</div>
+	</section>
+
+	<section class="News">
+		<div class="container">
+			<h2 class="title-new">See Our News</h2>
+			<div class="team-cards">
+				<div class="row">
+					<div class="col-md-12">
+							<div class="col-md-4">
+								<div class="new-card">
+									<img class="new-img" src="img/men.jpg">	
+									<span class="date">02.July.2019</span>
+									<div class="sub-heading">State of Design</div>
+									<div class="read-more"><a href="#">Read More</a>
+									</div>
+								</div>					
+							</div>
+							<div class="col-md-4">
+								<div class="new-card">
+									<img class="new-img" src="img/8.jpg">
+									<span class="date">02.July.2019</span>
+									<div class="sub-heading">We are Designer Team
+									</div>
+									<div class="read-more"><a href="#">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="new-card">
+									<img class="new-img" src="img/phone.jpg">	
+									<span class="date">02.July.2019</span>	
+									<div class="sub-heading">Digital Experiences</div>
+									<div class="read-more"><a href="#">Read More</a></div>
+								</div>
+							</div>	
+						</div>	
+					</div>				
+			</div>				
+		</div>
+	</section>
+	
+	<footer class="foot">
+		<section class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<div class="col-md-4">
+							<div class="foot-img">
+								<img src="https://www.apeiron.global/themes/apeiron-global-co/assets/img/logo-white.png">
+								<div class="con">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, odit, magni, hic porro dolore ullam voluptatum nesciunt facere amet facilis ratione maiores quas enim inventore deserunt molestiae tempore. Tempore, debitis.
+								</div>
+								<div class="con"><i class="fa fa-phone" aria-hidden="true" style="    color: #f76780; margin-right: 11px;"></i>(1800) 123 4466</div>
+								<div class="con"><i class="fa fa-map-marker" aria-hidden="true" style="    color: #f76780; margin-right: 11px;"></i>123 Rain St, Melbourne 3000 Australia.</div>
+								<div class="con"><i class="fa fa-envelope-o" aria-hidden="true" style="    color: #f76780; margin-right: 11px;"></i>info@example.com</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="foot-head">Recent Post</div>		
+								<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img class="media-object" src="img/men.jpg" alt="...">
+									    </a>
+									  </div>
+									  <div class="media-body">
+										    <h4 class="media-heading">Media heading</h4>
+										    <span class="da">july 20-2019</span>
+										    <span class="comm"><i class="fa fa-commenting-o" aria-hidden="true"></i>0 Comments</span>	    
+									  </div>
+								</div>
+								<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img class="media-object" src="img/8.jpg" alt="...">
+									    </a>
+									  </div>
+									  <div class="media-body">
+										    <h4 class="media-heading">Media heading</h4>
+										    <span class="da">july 20-2019</span>
+										    <span class="comm"><i class="fa fa-commenting-o" aria-hidden="true"></i>0 Comments</span>	    
+									  </div>
+								</div>
+								<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img class="media-object" src="img/phone.jpg" alt="...">
+									    </a>
+									  </div>
+									  <div class="media-body">
+										    <h4 class="media-heading">Media heading</h4>
+										    <span class="da">july 20-2019</span>
+										    <span class="comm"><i class="fa fa-commenting-o" aria-hidden="true"></i>0 Comments</span>	    
+									  </div>
+								</div>						
+						</div>
+						<div class="col-md-4">
+							<div class="foot-head">New Letter</div>
+						<p class="lero">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+							<input type="text" placeholder="Name *" name="">
+							<input type="text" placeholder="Email *" name="">
+							<button class="btn-strong">Submit Now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+		<section class="sub-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+								<div class="col-md-3">
+										<img class="images" src="img/logo.png">
+								</div>
+								<div class="col-md-3 abd">
+									<div class="contact">
+										<h5 class="sub-foot">Contact</h5>
+										<div class="co">Tel: (800) 0123 4567 890</div>
+										<div class="co">Fax: +33-(0)1-80-48-96-00</div>
+									</div>
+								</div>
+								<div class="col-md-3 abd">
+									<div class="addres">
+										<h5 class="sub-foot">Address</h5>
+										<div class="co">73 Beverly Park Ln, Beverly Hills, 
+										CA 90210</div>
+									</div>
+								</div>
+								<div class="col-md-3 abd">
+									<div class="share">
+										<h5 class="sub-foot">Share</h5>
+										<div class="icons">
+											<ul>
+												<a href="#"></a><i class="fa fa-facebook" aria-hidden="true"></i>
+												<a href="#"></a><i class="fa fa-linkedin" aria-hidden="true"></i>
+												<a href="#"></a><i class="fa fa-twitter" aria-hidden="true"></i>
+												<a href="#"></a><i class="fa fa-pinterest-p" aria-hidden="true"></i>
+												<a href="#"></a><i class="fa fa-google" aria-hidden="true"></i>
+											</ul>
+										</div>
+										<div class="co">Yourname@gmail.com</div>
+									</div>
+								</div>
+						</div>
+					</div>	
+				</div>		
+		</section>
+		<section class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copy">
+							<i class="fa fa-copyright" aria-hidden="true" style="margin-right: 4px;"></i>2019 Bielefeld | All rights reserve.
+						</div>
+					</div>	
+				</div>
+			</div>			
+		</section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>
